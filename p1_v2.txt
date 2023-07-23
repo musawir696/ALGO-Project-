@@ -1,0 +1,22 @@
+Test case 5:
+groups = {{'avocado', 'tomato', 'onion', 'lime'},
+{'black beans', 'rice', 'corn', 'cilantro'},
+{'tortilla chips', 'cheese', 'jalapeno', 'salsa'},
+{'sour cream', 'chicken', 'bell pepper', 'onion'},
+{'flour', 'butter', 'sugar', 'eggs', 'vanilla'}}
+
+nums = ['avocado', 'tomato', 'onion', 'lime', ‘d’, 'tomato', 'onion', 'lime', 'black beans', 'rice', 'corn', 'cilantro', 'black beans', ‘a’,  'tortilla chips', 'jalapeno', ‘cheese’,  'salsa', 'black beans', 'chicken', 'bell pepper', 'sour cream' , 'onion', ‘sugar’, 'butter', 'flour', 'sugar', 'vanilla', 'eggs', 'extra']
+
+Expected Outcome: True
+
+Test case 6:
+groups = {{'broccoli', 'cauliflower', 'carrot', 'garlic'},
+{'potato', 'cheese', 'milk', 'butter'},
+{'chicken', 'rosemary', 'lemon', 'olive oil'},
+{'flour', 'sugar', 'cocoa', ‘butter’, 'baking powder', 'eggs'},
+{'cream', 'vanilla', 'sugar', 'egg yolks'}}
+
+nums = ['broccoli', 'cauliflower', 'carrot', 'garlic',   'potato', 'cheese', 'milk', 'butter',  'flour', 'sugar', 'cocoa', 'baking powder', 'eggs', 'chicken', 'rosemary', 'lemon', 'cream', 'vanilla', 'sugar', 'egg yolks']
+
+Expected Outcome: False
+
